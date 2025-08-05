@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const outputDiv = document.getElementById("output");
   const API_KEY = 'AIzaSyAJilUCsG0bzVBzmgJQd5Ub8BHpY9wZsug';  // Replace with your actual YouTube Data API key
-  const API_URL = 'http://127.0.0.1:5000/';
+  const API_URL = 'http://127.0.0.1:5000';
 
   // Get the current tab's URL
   chrome.tabs.query({ active: true, currentWindow: true }, async (tabs) => {
